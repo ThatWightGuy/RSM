@@ -1,0 +1,167 @@
+<res>
+	<page>
+	    <header>
+	        <hname>Travis Wight</hname>
+	        <blk>
+                <loc>
+                    <adl1>9707 Woodley Ave</adl1>
+                    <city>North Hills</city>
+                    <spr>CA</spr>
+                    <zipp>91343</zipp>
+                    <country>USA</country>
+                </loc>
+                <hphone type="cell" cc="us">8184519120</hphone>
+                <link type="email">tman.wight@gmail.com</link>
+                <link type="linkedin">linkedin.com/in/traviswight/</link>
+	        </blk>
+	    </header>
+	    <info type="skills">
+	        <item type="skill">Python</item>
+	        <item type="skill">SQL</item>
+	        <item type="skill">XML</item>
+	        <item type="skill">C</item>
+	        <item type="skill">C++</item>
+	        <item type="skill">Java</item>
+	        <item type="skill">HTML</item>
+	        <item type="skill">CSS</item>
+	        <item type="skill">JavaScript</item>
+	        <item type="skill">JQuery</item>
+	    </info>
+	    <info type="sum">
+	        <item type="text">
+                I am a recently graduated computer science student actively seeking an internship or a full time position.
+                Skilled in Python and other Object-Oriented programming languages with a background in data analysis and
+                software engineering.
+	        </item>
+	    </info>
+	    <info type="emp" title="Experience">
+	        <item>
+	            <it>Technical Support and CAD Drafting</it>
+	            <idates>
+	                <start>
+	                    <month>06</month>
+	                    <year>2015</year>
+	                </start>
+	                <end>
+                        <month>08</month>
+	                    <year>2016</year>
+	                </end>
+	            </idates>
+	            <sum>
+	                Managed business website and assisted with CAD drafting on professional architecture projects.
+	            </sum>
+	        </item>
+	        <item>
+	            <it>Not Impossible Labs</it>
+	            <role>Volunteer</role>
+	            <idates>
+	                <start>
+	                    <month>07</month>
+	                    <year>2014</year>
+	                </start>
+	                <end>
+                        <month>08</month>
+	                    <year>2015</year>
+	                </end>
+	            </idates>
+	            <sum>
+	                <ib>
+	                    Worked with a team of students to design and develop an exoskeleton leg prototype for children
+	                    with Cerebral Palsy.
+	                </ib>
+                    <ib>Provided 3D design using SolidWorks.</ib>
+	            </sum>
+	        </item>
+	    </info>
+	    <info type="edu">
+	        <item>
+	            <it>California State University Channel Islands</it>
+	            <loc>
+	                <city>Camarillo</city>
+	                <spr>CA</spr>
+	            </loc>
+	            <idates>
+	                <start>
+	                    <month>08</month>
+	                    <year>2015</year>
+	                </start>
+	                <end>
+                        <month>05</month>
+	                    <year>2019</year>
+	                </end>
+	            </idates>
+	            <deg>
+	                <dtype>BS</dtype>
+	                <dsub>Computer Science</dsub>
+	            </deg>
+	        </item>
+	        <item>
+	            <it>Granada Hills Charter High School</it>
+	            <loc>
+	                <city>Granada Hills</city>
+	                <spr>CA</spr>
+	            </loc>
+	            <idates>
+	                <start>
+	                    <month>08</month>
+	                    <year>2011</year>
+	                </start>
+	                <end>
+                        <month>05</month>
+	                    <year>2015</year>
+	                </end>
+	            </idates>
+	            <deg>
+	                <dtype>HSD</dtype>
+	            </deg>
+	        </item>
+	    </info>
+	    <info>
+            <item>
+	            <it>Capstone Project</it>
+	            <idates>
+	                <start>
+	                    <month>01</month>
+	                    <year>2019</year>
+	                </start>
+	                <end>
+                        <month>05</month>
+	                    <year>2019</year>
+	                </end>
+	            </idates>
+	            <sum>
+	                <ib>
+	                    I worked on building a film recommendation system, designed around the concept of item-item
+	                    collaborative filtering.
+	                </ib>
+                    <ib>
+                        Created a lightweight user-based web application using the Django web framework to visualize
+                        the recommender system.
+                    </ib>
+	            </sum>
+	        </item>
+	        <item>
+	            <it>Plants of CI</it>
+	            <idates>
+	                <start>
+	                    <month>01</month>
+	                    <year>2017</year>
+	                </start>
+	                <end>
+                        <month>05</month>
+	                    <year>2017</year>
+	                </end>
+	            </idates>
+	            <sum>
+	                <ib>
+	                    Was part of a software engineering team that designed an android application that cataloged the
+	                    various plants around the Channel Islands campus.
+	                </ib>
+                    <ib>
+                        Was tasked with designing the database.
+                    </ib>
+	            </sum>
+	        </item>
+	    </info>
+	</page>
+</res>
