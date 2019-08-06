@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="746653f5-62ab-43ac-b068-bac18c8950ef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RSM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RSM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSMFiles/test.rsm" beforeDir="false" afterPath="$PROJECT_DIR$/RSMFiles/TravisWight.rsm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rsm.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.rsm" beforeDir="false" afterPath="$PROJECT_DIR$/test.rsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testinterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/testinterface.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/RSM$testinterface.coverage" NAME="testinterface Coverage Results" MODIFIED="1564273873467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RSM$testinterface.coverage" NAME="testinterface Coverage Results" MODIFIED="1565052605173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/RSMFile$rsmopen.coverage" NAME="rsmopen Coverage Results" MODIFIED="1564175909115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -25,8 +23,8 @@
       <file leaf-file-name="rsm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rsm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="442">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -34,17 +32,17 @@
       <file leaf-file-name="testinterface.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testinterface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.rsm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.rsm">
+      <file leaf-file-name="TravisWight.rsm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RSMFiles/TravisWight.rsm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="151" column="34" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+            <state relative-caret-position="2006">
+              <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -66,9 +64,11 @@
       <list>
         <option value="$PROJECT_DIR$/rsmopenm.py" />
         <option value="$PROJECT_DIR$/rsmopen.py" />
-        <option value="$PROJECT_DIR$/testinterface.py" />
-        <option value="$PROJECT_DIR$/rsm.py" />
         <option value="$PROJECT_DIR$/test.rsm" />
+        <option value="$PROJECT_DIR$/RSMFiles/test.rsm" />
+        <option value="$PROJECT_DIR$/testinterface.py" />
+        <option value="$PROJECT_DIR$/RSMFiles/TravisWight.rsm" />
+        <option value="$PROJECT_DIR$/rsm.py" />
       </list>
     </option>
   </component>
@@ -82,7 +82,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
@@ -99,6 +99,11 @@
             <path>
               <item name="RSM" type="b2602c69:ProjectViewProjectNode" />
               <item name="RSM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSM" type="462c0819:PsiDirectoryNode" />
+              <item name="RSMFiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,8 +201,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
-    <editor active="true" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -206,7 +210,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32972136" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14241001" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14241001" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -219,7 +223,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +233,41 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rsm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testinterface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RSMFiles/TravisWight.rsm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rsm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testinterface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rsm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -243,13 +282,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.rsm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.rsm" />
     <entry file="file://$PROJECT_DIR$/rsm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -264,13 +297,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.rsm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.rsm" />
     <entry file="file://$PROJECT_DIR$/rsm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -285,13 +312,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.rsm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.rsm" />
     <entry file="file://$PROJECT_DIR$/rsm.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -313,24 +334,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.rsm" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/2100883415/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="815" column="8" selection-start-line="815" selection-start-column="8" selection-end-line="815" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testinterface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rsm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        <state relative-caret-position="442">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.rsm">
+    <entry file="file://$PROJECT_DIR$/RSMFiles/TravisWight.rsm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="151" column="34" selection-start-line="151" selection-start-column="34" selection-end-line="151" selection-end-column="34" />
+        <state relative-caret-position="2006">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
         </state>
       </provider>
     </entry>

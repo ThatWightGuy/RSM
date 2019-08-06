@@ -1,6 +1,6 @@
 <res>
 	<page>
-	    <header>
+	    <header legacy="True">
 	        <hname>Travis Wight</hname>
 	        <blk>
                 <loc>
@@ -116,7 +116,7 @@
 	            </deg>
 	        </item>
 	    </info>
-	    <info>
+	    <info type="proj">
             <item>
 	            <it>Capstone Project</it>
 	            <idates>
