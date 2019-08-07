@@ -20,7 +20,6 @@ RSM is a limited Markup Language that aims to simplify the process of creating a
     - 'proj' : projects
     
 ```<header></header>``` ==>  denotes a block of header information
-  * will have a parameter "legacy" which will be a boolean denoting if the header should be copied
   
 ```<link></link>``` ==> denotes a link to a website
   * will have a parameter "type" denoted by ```type = ' '```
